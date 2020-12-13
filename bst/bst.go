@@ -182,7 +182,7 @@ func traverse(root *node) {
 
 	traverse(root.left)
 
-	fmt.Print(root.bstNode.getRank())
+	//fmt.Print(root.bstNode.getRank())
 
 	traverse(root.right)
 }
